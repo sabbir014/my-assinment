@@ -98,7 +98,8 @@ background-color: rgba(0, 0, 0, 0.6);
     color: white;
      max-width: 1500px;
      width: 100%;
-     hight: 100%;
+     height: 100%;
+
 
 }
 
@@ -123,14 +124,14 @@ em {
   line-height: 1.5;
 }
 
-<!-- Hero Section end  -->
+/* <!-- Hero Section end  --> */
 
 
 
 
 
 
-<!-- speakers Section start  -->
+/* <!-- speakers Section start  --> */
 
 .speakers{
 
@@ -226,4 +227,250 @@ em {
 
 }
 
+/* 
+<!-- speakers Section end  -->
 
+
+<!-- pricing Section start  --> */
+
+
+
+.pricing{
+
+    padding:100px 8%;
+
+    text-align:center;
+
+    background:#ffffff;
+
+}
+
+.pricing h2{
+
+    font-size:48px;
+
+    margin-bottom:15px;
+
+    color:#213353;
+
+}
+
+.pricing-subtitle{
+
+    color:#666;
+
+    margin-bottom:60px;
+
+    font-size:18px;
+
+}
+
+/* Cards Container */
+
+.price-container{
+display: flex;
+  margin: 0 auto;
+   justify-content: center;
+
+      /* max-width: 90vw; */
+align-items: center;
+  padding: 10px 5px;
+  background-color: white ;
+}
+
+/* Individual Card */
+
+.price-card{
+
+    width:320px;
+
+    hight: 100%;
+
+    background:white;
+
+    border:1px solid #ddd;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    text-align:left;
+
+}
+
+/* Featured Card */
+
+.price-card-featured{
+
+    width:320px;
+
+    height: 100%;
+
+    border:2px solid #ddd;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    text-align:left;
+
+    background:#8814e7;
+
+    color:white;
+
+}
+
+/* Headings */
+
+.price-card h4{
+
+    color:gray;
+
+    font-size:14px;
+
+    margin-bottom:15px;
+
+}
+
+.price-card-featured h4{
+
+    color:#3e88f7;
+    ont-size:14px;
+
+    margin-bottom:15px;
+
+}
+
+.price-card h1{
+
+    font-size:56px;
+
+    margin-bottom:10px;
+
+}
+
+
+.price-card-featured h1{
+
+    font-size:56px;
+
+    margin-bottom:10px;
+
+}
+
+.small-text{
+
+    color:gray;
+
+    margin-bottom:25px;
+
+}
+
+.price-card-featured .small-text{
+
+    color:#0c8029;
+
+     margin-bottom:25px;
+
+}
+
+/* Divider */
+
+.price-card hr{
+
+    margin:20px 0;
+
+}
+
+/* List */
+
+.price-card ul{
+
+    padding-left:20px;
+
+    margin-bottom:30px;
+
+}
+
+.price-card li{
+
+    margin-bottom:15px;
+
+}
+
+
+.price-card-featured ul{
+
+
+    padding-left:20px;
+
+    margin-bottom:30px;
+
+}
+
+.price-card-featured li{
+
+
+    margin-bottom:15px;
+
+}
+
+/* Button on White Cards */
+
+.price-card:not(.price-card-featured) button{
+
+    background:white;
+    width: 100%;
+    height: 50px;
+     padding: 10px 30px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+
+
+    color:#2f64ff;
+
+    border:2px solid #2f64ff;
+
+}
+
+.price-card:not(.price-card-featured) button:hover{
+
+    background:#ff2f39;
+
+    color:white;
+
+}
+.price-card-featured button{
+
+    background:rgb(12, 163, 70);
+    width: 100%;
+    height: 50px;
+     padding: 10px 30px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+.price-card-featured button:hover{
+
+    background:#0c8029;
+
+    color:white;
+
+}
