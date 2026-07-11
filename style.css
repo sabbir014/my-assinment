@@ -26,30 +26,37 @@
   background-color: #1a4ed8;
 }
 body {
-  /* background-color: #f5f5f5; */
+ 
   max-width: 1500px;
   margin: 0 auto;
 }
 
-nav {
-
+.nav {
   display: flex;
   margin: 0 auto;
-   justify-content: space-between;
-      /* max-width: 90vw; */
-align-items: center;
-  padding: 10px 5px;
-  background-color: white ;
-  
-}
-ul.nav-links {
-  display: flex;
   justify-content: space-between;
-  list-style: none;
   align-items: center;
   gap: 20px;
-  
+  padding: 10px 5px;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
 }
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav .common-btn {
+  margin: 0;
+  max-width: none;
+}
+
 
 
 
